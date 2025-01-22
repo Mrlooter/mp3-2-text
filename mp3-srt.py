@@ -19,8 +19,8 @@ logging.basicConfig(
 )
 
 # Set explicit paths to ffmpeg and ffprobe
-AudioSegment.converter = r"C:\ffmpeg-6.1.1-full_build\bin\ffmpeg.exe"
-AudioSegment.ffprobe = r"C:\ffmpeg-6.1.1-full_build\bin\ffprobe.exe"
+AudioSegment.converter = r"C:\ffmpeg-6.1.1-full_build\bin\ffmpeg.exe" # Replace with your FFmpeg path
+AudioSegment.ffprobe = r"C:\ffmpeg-6.1.1-full_build\bin\ffprobe.exe" # Replace with your FFprobe path
 
 
 def convert_mp3_to_wav(mp3_file, wav_file):
